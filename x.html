@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <style>
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #131417;  
+}
+ 
+.container_opening_page_animation {
+  color: #e5e5e5;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.animation_opening_page_animation {
+  height:70px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation_opening_page_animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation_opening_page_animation div:first-child {
+  animation: text-animation_opening_page_animation 20s 1;
+}
+
+/* .first div {
+  background-color:#20a7d8;
+} */
+/* .second div {
+  background-color:#CD921E;
+} */
+/* .third div {
+  background-color:#c10528;
+} */
+
+@keyframes text-animation_opening_page_animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+
+
+
+.animation_opening_page_animationa {
+  height:70px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation_opening_page_animationa > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation_opening_page_animationa div:first-child {
+  animation: text-animation_opening_page_animationa 30s 1;
+}
+
+/* .first div {
+  background-color:#20a7d8;
+} */
+/* .second div {
+  background-color:#CD921E;
+} */
+/* .third div {
+  background-color:#c10528;
+} */
+
+@keyframes text-animation_opening_page_animationa {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+
+/* Styles for screens with a maximum width of 767px (typical for mobile devices) */
+@media screen and (max-width: 1600px) {
+  /* Add your mobile-specific CSS styles here */
+  .container_opening_page_animation {
+  font-size: 2.0rem;
+  height: 90vh;
+  }
+}
+
+/* Styles for screens with a maximum width of 767px (typical for mobile devices) */
+@media screen and (max-width: 1024px) {
+  /* Add your mobile-specific CSS styles here */
+  .container_opening_page_animation {
+  font-size: 1.5rem;
+  height: 90vh;
+  }
+}
+
+/* Styles for screens with a maximum width of 767px (typical for mobile devices) */
+@media screen and (max-width: 767px) {
+  /* Add your mobile-specific CSS styles here */
+  
+  .container_opening_page_animation {
+  font-size: 1.0rem;
+  height: 90vh;
+ 
+}
+
+}
+
+/* Styles for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  /* Add your mobile-specific CSS styles here */
+
+  .container_opening_page_animation {
+  font-size: 0.9rem;
+  height: 90vh;
+ 
+}
+
+}
+
+
+ 
+.space {
+ 
+  font-family: 'Poppins', sans-serif;
+  background-color: #131417;  
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: space-fade-out 2s linear 4.5s 1 forwards;
+}
+  
+@keyframes space-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes starsMove {
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes smoke {
+  30% {
+    transform: scale(2);
+    opacity: 1;
+  }
+  31% {
+    opacity: 0.5;
+  }
+}
+@keyframes rocketShake {
+  from {
+    transform: rotate(-0.5deg);
+  }
+  to {
+    transform: rotate(0.5deg);
+  }
+}
+@keyframes rocketMove {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10%);
+  }
+  50% {
+    transform: translateY(-15%);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(2%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div id="opening-animation" class="container_opening_page_animation space">
+      <section class="animation_opening_page_animation"  >
+      <div class="first"><div>Join with</div></div>
+      <div class="second"><div>Go back with</div></div>
+    </section>
+
+    
+    <section class="animation_opening_page_animationa animate__animated animate__zoomInRight" style=" animation-duration: 2.0s;" >
+      <div class="first"><div>your dream startup idea</div></div>
+      <div class="second"><div>a business ready for hyper-growth</div></div>
+    </section>
+  </div>
+
+
+
+
+  <main>
+    <h5 style="color:#e5e5e5">Hello World!</h5>
+  </main>
+
+
+
+
+  <script>
+    $(document).on('click', () => {
+                $('#opening-animation').fadeOut(2000);
+                $(document).off('click');
+            });
+            setTimeout(() => $('#opening-animation').remove(), 5500);
+  </script>
+
+</body>
+</html>
